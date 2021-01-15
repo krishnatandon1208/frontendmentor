@@ -2,8 +2,8 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	background: #4cb5be;
-	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	background: #f8fcfd;
+	font-family: Kumbh Sans;
 }
 
 .bg-white {
@@ -20,6 +20,13 @@ body {
 
 .text-center {
 	text-align: center;
+}
+
+.master-card-block {
+	background: url("bg-pattern-top.svg");
+	background-repeat: no-repeat;
+	clip-path: circle(1000px at left);
+	height: 100vh;
 }
 
 .master-card {
